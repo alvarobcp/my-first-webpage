@@ -142,7 +142,7 @@ h3{
 
 .profile-img{
     
-    width: 35%;
+    width: 100%;
     margin-right: 50px;
     border-radius: 20%;
 }
@@ -307,6 +307,13 @@ hr{
     .social-icon > a > img{
         width: 50px;
     }
+
+    .profile-img{
+    
+    width: 35%;
+    margin-right: 50px;
+    border-radius: 20%;
+}
 
     @media (max-width: 700px){
         p{
