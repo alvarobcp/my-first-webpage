@@ -1,0 +1,350 @@
+
+body{
+    margin:0px;
+}
+
+.title{
+    height: 60vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-image: url(./assets/images/imagen-portada-s.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vh;
+    margin: 0px 40px 0px 40px; 
+}
+
+.container-two{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.container-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+
+.about-me{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    margin-bottom: 100px; 
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding-bottom: 70px;
+    background-color: #f1f1f1;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    padding-bottom: 70px;
+    background-color: #f1f1f1;
+}
+
+.container-about-me{
+    
+    width: 100vh;
+    margin: 40px 40px 0px 40px;
+}
+
+.first-image img{
+    height: 350px;
+    width: 350px;
+}
+
+
+.text{
+    flex-grow: 2;
+}
+
+.image{
+    flex-grow: 2;
+    height: 100%;
+}
+
+p{
+    font-size: 1.8em;
+    font-family: "JetBrains Mono", monospace;
+    color: black;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+}
+
+li p{
+    font-size: 1.3em;
+}
+
+h3{
+        font-size: 1.8em;
+        font-family: "JetBrains Mono", monospace;
+        color: black;
+}
+
+.title-text{
+    color: #005da9;
+    font-size: 3.5em;
+    font-family: "Abril Fatface", serif;
+    font-weight: 500;
+}
+
+.title-margin{
+    margin-top: 0px;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.welcome-paragraph{
+    font-size: 1.8em;
+    font-family: "JetBrains Mono", monospace;
+    color: white;
+}
+
+.profile-img{
+    
+    width: 40vh;
+    margin-right: 50px;
+    border-radius: 20%;
+}
+
+.skills-img{
+    
+    height: 250px;
+    margin-right: 50px;
+    border-radius: 5%;
+}
+
+.skills-container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    gap: 30px;
+}
+
+.socialmedia-container{
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.icon{
+    width: 30%;
+}
+
+.social-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon > a {
+    padding-bottom: 10px;
+    width: 200px;
+}
+
+.social-icon h3{
+    font-size: 1.5em;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.container-projects{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 280px;
+    padding-bottom: 70px;
+}
+
+.container-about-me > p{
+    margin-bottom: 70px;
+}
+
+.footer-text{
+    font-size: 1em;
+    color: dimgrey;
+    text-align: center;
+    padding: 70px 20px 70px 20px;
+}
+
+
+    @media (max-width: 1000px) {
+
+        .container{
+            text-align: center;
+            justify-content: center;
+        }
+
+        .about-me{
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .container-about-me{
+            width: 95%;
+            margin: 0px;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .profile-img{
+            margin: 0px;
+            margin-bottom: 15px;
+        }
+
+        .container-two{
+            flex-direction: column;
+        }
+
+        hr{
+            display: none;
+        }
+
+        .skills-container{
+            display: grid;
+            grid-template-columns: 1fr;
+            text-align: center;
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .icon{
+            width: 10%;
+            margin-bottom: -15px;
+        }
+
+        .container-projects{
+            height: 30%;
+            flex-direction: column;
+        }
+
+        .skills-img{
+            margin: 0;
+        }
+
+        .socialmedia-container{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        .social-icon > a {
+            padding-bottom: 10px;
+            height: 50px;
+        }
+
+        .social-icon > a > img{
+            width: 50px;
+        }
+
+
+        .skills{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .about-me{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .contact{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .footer-text{
+            font-size: 1em;
+            color: dimgrey;
+            text-align: center;
+            padding: 70px 40px 70px 40px;
+        }
+
+    }
+
+    @media (max-width: 700px){
+
+        p{
+            font-size: 1.6em;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        .title-text{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+            
+        .socialmedia-container{       
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr;
+        }
+
+        .container-projects img{
+            height: 230px;
+        }
+
+        .title{
+            height:100vh;
+        }
+
+        .profile-img{
+            width: 35vh;
+        }
+
+    }
+
+
+
+    @media (max-width: 400px){
+        
+        .title-text{
+            font-size: 2.8em;
+        }
+        .welcome-paragraph{
+            font-size: 1.5em;
+        }
+        p{
+            font-size: 1.5em;
+        }
+        .container-projects img{
+            height: 200px;
+        }
+        .container-projects p{
+            margin-bottom: 40px;
+        }
+        .container-projects{
+            padding-bottom: 10px;
+        }
+        
+    }
+
